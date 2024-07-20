@@ -1,0 +1,59 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+/* first section */
+.section1{background-color: rgb(0, 132, 255);
+border: 2px solid black;}
+.link {display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+ul {display: flex;
+    gap: 24px;
+list-style-type: none;
+margin-right:200px}
+a {text-decoration: none;
+color: black;
+font-size: 20px;
+font-weight: 550;}
+.logo {font-weight: 800;
+font-size: 30px;
+margin-left:200px}
+.content1{display: flex;
+flex-direction: column;
+font-size: 30px;
+width: 300px;
+border-right: 2px solid #e00101;
+padding-right:20px;
+}
+.title {font-size: 50px;
+font-weight: 900;}
+.sign-up {width: 80px; 
+padding:8px;
+font-size: 16px;
+border-radius: 20%;
+font-weight: 600;
+color:rgb(0, 132, 255);
+background-color: aliceblue;
+border: none;
+margin: 4px 0px;
+}
+.img1{display: flex;
+    border-left: 2px solid #e00101;
+padding-left:20px; /* interesting mechanics of hr */
+}
+
+.sample { width: 390px;
+}
+.body1 {display: flex;
+    justify-content: center;
+    gap:290px;
+    align-items: center;
+/*To position 2 flexboxes near each other horizontally you need to put them in a flex that has the flex-direction row*/}
+
+/* second section */
+/* third section */
