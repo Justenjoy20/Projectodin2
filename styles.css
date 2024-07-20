@@ -56,4 +56,29 @@ padding-left:20px; /* interesting mechanics of hr */
 /*To position 2 flexboxes near each other horizontally you need to put them in a flex that has the flex-direction row*/}
 
 /* second section */
+.title2 {text-align: center;
+margin: 20px;
+font-size: 40px;
+font-weight: 500;}
+.boxcontainer1{display:flex;
+    justify-content: center;
+    gap: 50px;
+}
+.box1{ width: 200px;
+    height:200px;
+    border-radius: 20px ;
+border: 4px solid rgb(0, 132, 255);}
+.box2{width: 200px;
+    height:200px;
+    border: 4px solid rgb(0, 132, 255);
+    border-radius: 20px ;}
+.box3{width: 200px;
+    height:200px;
+    border: 4px solid rgb(0, 132, 255);
+    border-radius: 20px ;}
+.box4{width: 200px;
+    height:200px;
+    border: 4px solid rgb(0, 132, 255);
+    border-radius: 20px ;}
+    .cont1, .cont2, .cont3, .cont4{text-align: center;}
 /* third section */
