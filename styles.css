@@ -63,11 +63,13 @@ font-weight: 500;}
 .boxcontainer1{display:flex;
     justify-content: center;
     gap: 50px;
+    padding-bottom: 40px ;
 }
 .box1{ width: 200px;
     height:200px;
     border-radius: 20px ;
-border: 4px solid rgb(0, 132, 255);}
+border: 4px solid rgb(0, 132, 255);
+}
 .box2{width: 200px;
     height:200px;
     border: 4px solid rgb(0, 132, 255);
@@ -82,22 +84,47 @@ border: 4px solid rgb(0, 132, 255);}
     border-radius: 20px ;}
     .cont1, .cont2, .cont3, .cont4{text-align: center;}
 /* third section */
-.section3{background-color: grey;
-display: flex;}
-.quote{display: flex;
-justify-content: center;
+.section3{display: flex;
+align-items: center;
+padding: 10px;
+    background-color: grey;
+height: 200px;}
+.quote{
 font-size: 20px;
-padding:100px;
-padding-bottom: 0;}
+}
 .author{font-size: 15px;
 font-weight: 600;
-
 }
-.proper{display: flex;
-    justify-items: center;}
+.gay{display: flex;
+justify-content: flex-end;}
     /* section 4 */
+    .section4 {display: flex;
+    justify-content: center;
+    height:400px;
+align-items: center;
+ }
+.general {display: flex; 
+width: 800px;
+height:200px;
+background-color: #e00101;
+justify-content: center;
+align-items: center;
+gap:90px;
+}
+.text3 {display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+}
+.button2 {display: flex;
+padding: 10px;
+font-size: 18px;
+font-weight: 600;
+background-color: whitesmoke;
+border: none;}
+
 /* section 5*/
     .section5{background-color: rgb(105, 98, 98);
+      
         }
         .footer {text-align: center;
             margin: 20px;
@@ -105,3 +132,4 @@ font-weight: 600;
             font-weight: 500;
         padding:30px;
     margin:0;}
+    
